@@ -1,0 +1,37 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        //- Incluye el link al fichero y no muestra su contenido
+        link(rel='stylesheet', href='/public/css/style.css')
+
+        title Home
+        //- de esta forma se enlaza el fichero y muestra todo el contenido del fichero 
+        //- style   
+        //-     include ../public/css/style.css
+    body 
+        h1.home Bienvenidos a mi panadería
+        nav
+        ul.barraNav
+            li
+                a(href='/') Home
+            li
+                a(href='/about') About
+            li
+                a(href='/location') Location
+            li
+                a(href='/mission') Mision
+            li
+                a(href='/contact') Contact
+
+        img.foto(src='/public/images/nosotros.jpg')
+
+        button#btnshow Mostrar
+
+        script(type='text/javascript', src='/public/js/script.js')
+
+        //- de esta forma incluye todo el contenido del fichero      
+        //- script 
+        //-     include ../public/js/script.js
