@@ -11,3 +11,4 @@ app.set('views','./views');
 
 //usar el router
 app.use('/',router);
+
