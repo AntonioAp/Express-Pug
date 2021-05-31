@@ -1,0 +1,54 @@
+.about{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+.home{
+    text-align: center;
+}
+.location{
+    text-align: center;
+}
+.mission{
+    text-align: center;
+}
+#contMapa{
+    display: flex;
+    justify-content: center;
+    padding: 10%;    
+}
+.mapa{
+    width: 50vw;
+    height: 50vh;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10%;
+}
+.foto{
+    width: 100vw;
+
+}
+.barraNav{
+    display:flex;
+    justify-content: space-around;
+   
+}
+a{
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+
+li{
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 2%;
+    list-style: none;
+}
+li:hover{
+    background-color:thistle;
+    
+}
+a:hover{
+    color: white;
+}
